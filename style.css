@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.p5Canvas {
+    display: none;
+}
+#layer1 {
+    transform: scale(1.4) translateX(-25px);
+    animation: corpo 20s ease-in-out infinite alternate;
+}
+#g1170 {
+    transform: translateX(-380px) translateY(60px) scale(1.5);
+}
+#path1133 {
+    display: none;
+}
+#rect1070 {
+    transform: translateY(100px);
+    animation: bracoD 30s  5s infinite alternate;
+}
+.background {
+    background-image: url(./porta.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#circle42 {
+    animation: olhoE 20s  1s infinite alternate;
+    animation-timing-function: step-start, ease-in;
+}
+#circle871 {
+    animation: olhoEM 20s  1s infinite alternate;
+    animation-timing-function: step-start, ease-in;
+}
+#ellipse879 {
+    animation: olhoD 20s  1s infinite alternate;
+    animation-timing-function: step-start, ease-in;
+    
+}
+#circle881 {
+    animation: olhoDM 20s  1s infinite alternate;
+    animation-timing-function: step-start, ease-in;
+}
+@keyframes corpo {
+    25% {
+        transform: scale(1.4) translateX(-22px);
+    }
+    50% {
+        transform: scale(1.4) translateX(-25px) translateY(2px);
+    }
+    75% {
+        transform: scale(1.4) translateX(-23px) translateY(-2px);
+    }
+    100% {
+        transform: scale(1.4) translateX(-25px);
+    }
+}
+@keyframes bracoD {
+    42%{
+        transform: translateY(100px);
+    }
+    49%{
+        transform: translateY(20px) translateX(10px) rotate(-19deg);
+    }
+    50%{
+        transform: translateY(20px) translateX(11px) rotate(-20deg);
+    }
+    51%{
+        transform: translateY(20px) translateX(10px) rotate(-19deg);
+    }
+    58%{
+        transform: translateY(100px);
+    }
+}
+@keyframes olhoE {
+    0% {
+        transform: translateY(6px);
+    }
+    25% {
+        transform: translateY(6px) translatex(2px);
+    }
+    50% {
+        transform: translateY(6px) translatex(-2px);
+    }
+    75% {
+        transform: translateY(6px) ;
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+@keyframes olhoEM {
+    0% {
+        transform: translateY(8px);
+    }
+    25% {
+        transform: translateY(8px) translatex(3px);
+    }
+    50% {
+        transform: translateY(8px) translatex(-3px);
+    }
+    75% {
+        transform: translateY(8px) ;
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+@keyframes olhoD {
+    0% {
+        transform: translateY(6px);
+    }
+    25% {
+        transform: translateY(6px) translatex(2px);
+    }
+    50% {
+        transform: translateY(6px) translatex(-2px);
+    }
+    75% {
+        transform: translateY(6px) ;
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+@keyframes olhoDM {
+    0% {
+        transform: translateY(8px);
+    }
+    25% {
+        transform: translateY(8px) translatex(3px);
+    }
+    50% {
+        transform: translateY(8px) translatex(-3px);
+    }
+    75% {
+        transform: translateY(8px) ;
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
