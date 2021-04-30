@@ -1,6 +1,7 @@
 let mic;
 
   function setup(){
+    userStartAudio();
     mic = new p5.AudioIn();
     mic.start();
   }
@@ -24,5 +25,5 @@ let mic;
   }
 
   function mousePressed() {
-    userStartAudio();
+    
   }
